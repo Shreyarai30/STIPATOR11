@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color (match this to the image's background) -->
+    <item android:drawable="@android:color/black" />
+
+    <!-- App icon or logo as a centered drawable -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/stipator_logo" /> <!-- Ensure this matches your image file name -->
+    </item>
+</layer-list>
